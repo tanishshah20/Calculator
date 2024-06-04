@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <div id="wrapper">
+        <div class="calc">
+            <div id="display"></div>
+            <button class="b1" onclick="calcu('1')">1</button>
+            <button class="b2" onclick="calcu('2')">2</button>
+            <button class="b3" onclick="calcu('3')">3</button>
+            <button class="b4" onclick="calcu('4')">4</button>
+            <button class="b5" onclick="calcu('5')">5</button>
+            <button class="b6" onclick="calcu('6')">6</button>
+            <button class="b7" onclick="calcu('7')">7</button>
+            <button class="b8" onclick="calcu('8')">8</button>
+            <button class="b9" onclick="calcu('9')">9</button>
+            <button class="b0" onclick="calcu('0')">0</button>
+            <button class="b11" onclick="calcu('+')">+</button>
+            <button class="b12" onclick="calcu('-')">-</button>
+            <button class="b13" onclick="calcu('/')">/</button>
+            <button class="b14" onclick="calcu('*')">*</button>
+            <button class="b15" onclick="calculate()">=</button>
+            <button id="clear">Clear</button>
+        </div>
+        <div class="history">
+            <div>
+                <h5>History:-</h5>
+            </div>
+            <ol id="list">
+                
+            </ol>
+        </div>
+    </div>
+
+    <script src="calculator.js"></script>
+</body>
+
+</html>
