@@ -74,6 +74,9 @@ button:hover{
     text-decoration: underline;
     margin: 5px;
 }
+.history span:hover{
+    cursor: pointer;
+}
 
 #list{
     display: flex;

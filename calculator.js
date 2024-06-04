@@ -55,4 +55,6 @@ function calculate(){
     history=''
 }
 
-
+function delete_list() {
+    o_list.innerHTML = ""
+}
